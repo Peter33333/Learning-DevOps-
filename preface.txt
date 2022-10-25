@@ -14,5 +14,21 @@
 本书覆盖的内容
 第一章，DevOps文化及实践，解释DevOps文化的宗旨，以及那些关于将在全书中将反复出现的一些DevOps实践（如IaC和CI/CD流水线）的细节。
 
-第二章，
+第二章，使用Terraform配置云原生基础架构，详细介绍了如何使用terrform为IaC提供云基础设施，其中包括terrform的安装，它的命令行，它的生命周期，提供Azure基础设施示例的实际用法,以及使用远程后端保护tfstate。
+
+第三章，使用Ansible来配置IaaS基础架构，涉及到通过Ansible对虚拟机的配置，包括了Ansible的安装，命令行，对库存和剧本设置不同角色，它在Azure配置虚拟机中的应用，用Ansible Vault保护数据，以及动态库存的使用。
+
+第四章，使用Packer来优化基础架构的部署，介绍了如何用Packer来创建虚拟机镜像，包括它的安装以及怎么用它在Azure创建镜像。
+
+第五章，用Git来管理你的源代码，将探索Git的使用，包括它的安装，它的最基本的命令行，工作流，分支系统的纵览，以及一个GitFlow工作流的实例。
+
+第六章，持续集成和持续部署，展示了Jenkins, GitLab CI,和Azure Pipelines是如何创建一个端到段的CI/CD流水线的。每种工具都会详细展开介绍他们的特性。
+
+第七章，使用Docker来容器化你的应用，涵盖了Docker的使用，其中包括的内容有：本地安装，Docker Hub仓库的概况，编写Dockerfile以及展示它是如何被使用的。通过一个示例来阐明在CI/CD流水线中，一个应用是如何被虚拟化，本地执行，最终被部署到一个Azure容器示例。
+
+第八章，通过Kubernetes高效管理容器，介绍了Kubernetes的基本使用，包括本地安装，应用部署，以及一个使用Azure Kubernetes Services管理Kubernetes的示例。
+
+第九章，使用Postman来测试API，详细介绍了如何使用Postman来测试一个API用例，包括了本地使用和通过Newman，Azure Pipelines的CI/CD流水线实现自动化。
+
+第十章，使用SonarQube完成静态代码扫描，介绍了怎么用SonarQube来对一个应用进行静态代码扫描，
 
